@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from database import *
+from src.database import *
 from sqlalchemy.orm import Session
 from fastapi import Depends, FastAPI, Body
 from fastapi.responses import JSONResponse, FileResponse
